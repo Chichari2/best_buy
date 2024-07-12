@@ -80,5 +80,3 @@ class LimitedProduct(Product):
 
   def show(self):
     return f"{self.name}, Price: {self.price}, Quantity: {self.quantity}, Maximum per order: {self.maximum}"
-
-
